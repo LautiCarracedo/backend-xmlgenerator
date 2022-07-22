@@ -1,0 +1,20 @@
+{
+    "origenPSRM":{
+        "tagGeneral": ["banco", "nroTransaccion", "nroRendicion", "fechaRendicion", "cbuOrigen", "cuitOrigen", "cbuDestino",
+            "cuitDestino", "registros", "totalImpDeterminado", "totalImpPagado", "totalImpRecaudado",
+            "totalImpDepositado", "totalImpADepositar", "totalImpComision", "totalImpIVA"],
+        "tagSucursal": ["sucursal", "registros", "totalImpDeterminado", "totalImpPagado", "totalImpRecaudado",
+                    "totalImpDepositado", "totalImpADepositar", "totalImpComision", "totalImpIVA"],
+        "tagPagos": ["codigoRegistro", "caja", "cajero", "lote", "registros", "totalImpDeterminado", "totalImpPagado", 
+                "totalImpComision", "totalImpIVA"],
+        "tagDetallePago": ["codigoRegistro", "nroRegistro", "nroControl", "marcaMovimiento","tipoOperacion", "tipoRendicion",
+                        "moneda", "nroLiquidacionOriginal", "nroLiquidacionActualizado", "fechaPago", "impDeterminado",
+                        "impPagado", "impComision", "impIVA","nroComercio", "cantCuotas", "idObjetoImponible", "obligacion"]
+    },
+    "origenOTAX":{
+
+    },
+    "origenGANT":{
+        
+    }
+}
